@@ -5,3 +5,17 @@ body {
 .body--margin {
   margin-bottom: 20px;
 }
+
+.body__main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.table {
+  grid-area: 1 / 1 / 6 / 4;
+}
+
+.image {
+  grid-area: 1 / 4 / 2 / 7;
+}
